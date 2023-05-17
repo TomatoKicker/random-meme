@@ -7,7 +7,7 @@ import CardMeme from './CardMeme.js';
 function ContainerMeme() {
   return (
 	<Container>
-	  <Row>
+	  <Row className='d-flex justify-content-center'>
 	  	<Col xs={12} className={"d-flex justify-content-center"}>
 	  		<CardMeme/>
 	  	</Col>
