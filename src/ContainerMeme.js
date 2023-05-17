@@ -8,7 +8,7 @@ function ContainerMeme() {
   return (
 	<Container>
 	  <Row>
-	  	<Col xs={12} class="text-center">
+	  	<Col xs={12} className={"d-flex justify-content-center"}>
 	  		<CardMeme/>
 	  	</Col>
 	  </Row>

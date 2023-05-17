@@ -36,9 +36,9 @@
     transform: rotate(360deg);
   }
 }
-.container-meme{
-  background: #aeacd3;
+body{
+  background-color: #282c34 !important;
 }
-.test{
-  background: #aeacd3;
+.card{
+  max-width: 80%;
 }

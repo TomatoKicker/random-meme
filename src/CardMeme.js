@@ -11,11 +11,11 @@ getImage()
 
 function CardMeme() {
   return (
-	  <Card style={{ width: '18rem' }}>
-      <Card.Body>
+	  <Card>
+      <Card.Body className='text-center'>
         <Card.Title>Random Meme</Card.Title>
         <Card.Text>
-	  <Image id="imageMeme" src="" alt="meme" style={{width: '80%'}}/>
+	        <Image id="imageMeme" alt="meme" className='mw-100'/>
         </Card.Text>
         <Button variant="primary" onClick={async () => {getImage()}}>Refresh</Button>
       </Card.Body>
